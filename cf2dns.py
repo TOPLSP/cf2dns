@@ -16,8 +16,8 @@ KEY = "o1zrmHAF"
 #CM:移动 CU:联通 CT:电信  AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
 DOMAINS = {
-    "hostxxnit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
-    "484848.xyz": {"@": ["CM","CU","CT"], "shop": ["CM","CU","CT"]}
+    "daye.pp.ua": {"@": ["CM","CU","CT"], "a": ["CM", "CU", "CT"], "b": ["CM","CU","CT"], "c": ["CM","CU","CT"]},
+    "sixpayen.cn": {"@": ["CM","CU","CT"], "shop": ["CM","CU","CT"]}
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
@@ -42,8 +42,8 @@ TYPE = 'v4'
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 #阿里云后台获取 https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.2.11.2c6a2fbdh13O53  注意需要添加DNS控制权限 AliyunDNSFullAccess
 #华为云后台获取 https://support.huaweicloud.com/devg-apisign/api-sign-provide-aksk.html
-SECRETID = 'WTTCWxxxxxxxxxxxxxxxxxxxxx84O0V'
-SECRETKEY = 'GXkG6D4X1Nxxxxxxxxxxxxxxxxxxxxx4lRg6lT'
+SECRETID = 'AKIDd5NVRAevypeNyJPGGJE2hEZqyvpVw98s'
+SECRETKEY = 'WotlB4nZBaw8YxCH8oLeoRowrkeMsQnx'
 
 log_cf2dns = Logger('cf2dns.log', level='debug') 
 
